@@ -707,7 +707,7 @@ form.addEventListener('submit', async e=>{
     }
   }
   el('thanks-msg').textContent = data.attend.startsWith('Có')
-    ? 'Chúng mình đã nhận được xác nhận của ' + data.name + ' và rất mong gặp bạn ngày 20.09.2026.'
+    ? 'Chúng mình đã nhận được xác nhận của ' + data.name + ' và rất mong gặp bạn ngày 19.09.2026.'
     : 'Cảm ơn ' + data.name + ' đã phản hồi. Chúng mình vẫn gửi tới bạn thật nhiều yêu thương!';
   form.style.display='none'; el('thanks').style.display='block';
   el('thanks').scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'});
